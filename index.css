@@ -1,0 +1,71 @@
+
+            body {
+                background-color: black;
+            }
+
+            h1 {
+                color: gray;
+            }
+
+            h2 {
+                color: white
+            }
+
+            h3 {
+                color: white
+            }
+
+            p {
+                color: white;
+            }
+
+            #imagem-principal {
+               
+                margin-left: 30%;
+                margin-right: 30%;
+            }
+             
+            #titulo {
+                text-align: center;
+            }
+
+            #comeco {
+                text-align: center;
+             }
+
+            a {
+                background-color: #04AA6D;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+              }
+
+            
+              div {
+              margin-left: 38%;
+              margin-right: 38%;
+            
+              }
+
+              .itens {
+                font-style: normal;
+                font-size: large;
+              }
+
+              #conteudoprincipal {
+              margin: 5%
+              
+
+              }
+
+              ul {
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 10%;
+              }

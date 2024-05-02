@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Arctic Monkeys</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logoam1.png" width="200" height="200"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomecompleto"> Nome Completo </label>
+            <input id="nomecompleto" type="text">
+
+            <label for="email"> E-mail</label>
+            <input id="email" placeholder="seuemail@gmail.com" required type="text">
+
+            <label for="telefone"> Telefone</label>
+            <input id="telefone" placeholder="(xx) xxxx-xxxx" required type="tel">
+
+            <label for="mensagem"> Mensagem</label>
+            <textarea cols="70" required rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere o contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+            </div>
+
+            <label>
+                <input type="checkbox" name="contato" id="contato">
+                Gostaria de receber nosso contato?
+            </label>
+
+            <p>Em qual horário prefere ser atendido</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+
+            <input type="submit" class="enviar" value="Enviar formulário">
+        </form>
+    </main>
+
+    <footer>
+        <img src="">
+        <p id="id_footer" class="p_footer">&copy; Copyright - @rafelywe </p>
+    </footer>
+</body>
+
+</html>
